@@ -93,6 +93,77 @@
   line-height: 1.6;
   color: #ffffff;
   text-transform: uppercase;
+
+/*==========TRENDS==========*/
+.trends {
+   margin-top: 60px;
+}
+.trends-top {
+  font-size: 20px;
+  text-align: center;
+}
+.trends-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.trend {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  width: calc(25% - 2px);
+  min-height: 320px;
+  padding: 20px;
+  font-size: 16px;
+  z-index: 0;
+}
+ .trend-1 {
+  background: #000000 url(../images/trend1.jpg) no-repeat center/cover;
+}
+.trend-2 {
+  background: #000000 url(../images/trend2.jpg) no-repeat center/cover;
+}
+.trend-3 {
+  background: #000000 url(../images/trend3.jpg) no-repeat center/cover;
+}
+.trend-4 {
+  background: #000000 url(../images/trend4.jpg) no-repeat center/cover;
+} 
+.trend-text {
+  width: 100%;
+  padding: 34px 28px;
+  border: 3px solid rgba(181, 159, 91, 0.6);
+  z-index: 3;
+}
+.trend-title {
+  font-size: 1.25em;
+  line-height: 1.2;
+  color: #ffffff;
+}
+.trend-title:hover {
+  color: #b59f5b;
+}
+.trend-link {
+  font-size: inherit;
+  line-height: inherit;
+  cursor: pointer;
+}
+.trend-teg {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 11px;
+}
+.trend-teg-item:not(:last-child) {
+  margin-right: 18px;
+}
+.trend-teg-item:hover {
+  text-decoration: underline;
+}
+.trend-teg-link {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #b59f5b;
 }
 /*==========CONTENT==========*/
 .content {
