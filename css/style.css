@@ -881,7 +881,7 @@ html, body {
 
 /*----------------- ADAPTIVE  -----------------*/
 
-@media screen and (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
 
   .trends-list {
     flex-wrap: wrap;
@@ -920,7 +920,7 @@ html, body {
 }
 
 
-@media screen and (min-width: 641px) and (max-width: 1200px) {
+@media only screen and (min-width: 641px) and (max-width: 1200px) {
   
   .container {
     padding-left: 30px;
@@ -950,7 +950,7 @@ html, body {
   }
 }
 
-@media screen and (max-width: 950px) {
+@media only screen and (max-width: 950px) {
   
   .main-item {
     flex-direction: column;
@@ -963,7 +963,7 @@ html, body {
 }
 
 
-@media  screen and (max-width: 640px) {
+@media only  screen and (max-width: 640px) {
 
   .content {
     flex-direction: column;
