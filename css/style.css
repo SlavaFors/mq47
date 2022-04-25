@@ -935,7 +935,7 @@ html, body {
     line-height: 1.375;
   }
 
-    .content {
+  .content {
     gap: 35px;
   }
 
@@ -962,7 +962,7 @@ html, body {
 
 }
 
-===================
+
 @media  screen and (max-width: 640px) {
 
   .content {
@@ -1002,7 +1002,7 @@ html, body {
   }
  
   .header {
-    background: url(../img/banner-mobile.jpg) #000000 no-repeat center/cover;
+    background: url(../images/banner-mobile.jpg) #000000 no-repeat center/cover;
     padding-top: 45px;  
     padding-bottom: 220px;
   }
@@ -1030,7 +1030,7 @@ html, body {
   }
 
   .header {
-    background: url(../img/banner-bg-tablet.jpg) #000000 no-repeat center/cover;
+    background: url(../images/banner-bg-tablet.jpg) #000000 no-repeat center/cover;
     padding-top: 45px;  
     padding-bottom: 125px;
   }  
