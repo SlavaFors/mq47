@@ -220,16 +220,16 @@ html, body {
   z-index: 2;
 }
  .trend-1 {
-  background: #000000 url(../images/trend1.jpg) no-repeat center/cover;
+  background: #000000 url(images/trend1.jpg) no-repeat center/cover;
 }
 .trend-2 {
-  background: #000000 url(../images/trend2.jpg) no-repeat center/cover;
+  background: #000000 url(images/trend2.jpg) no-repeat center/cover;
 }
 .trend-3 {
-  background: #000000 url(../images/trend3.jpg) no-repeat center/cover;
+  background: #000000 url(images/trend3.jpg) no-repeat center/cover;
 }
 .trend-4 {
-  background: #000000 url(../images/trend4.jpg) no-repeat center/cover;
+  background: #000000 url(images/trend4.jpg) no-repeat center/cover;
 } 
 .trend-text {
   width: 100%;
