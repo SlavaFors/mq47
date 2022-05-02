@@ -191,8 +191,8 @@
 
 <!--------------- Блок справа --------------->
 <aside class="aside">
-  <h3 class="common-title aside-title">Новые посты</h3>
-   <section class="new-posts">
+  <section class="new-posts">
+    <h3 class="common-title aside-title">Новые посты</h3>
       <article class="post-article"> <!-- СТАТЬЯ 1 -->
        <img class="post-article-img" src="images/2.jpg" alt:"фигура на фоне пляжа">
         <div class="post-article-text">
@@ -251,7 +251,6 @@
              <span class="input-button">Поле подписки</span>
              <input class="input-mailing global-input" type="email" placeholder="Ваш email-адрес">
           </label>
-         <span class="input-button">Кнопка подписки</span>
          <button class="mailing-button" type="submit"> подписаться</button>
       </form>
     </section>   
@@ -360,8 +359,7 @@
                 </p>
                 <div class="price-container">
                   <div class="prices">
-                    <span class="price-before">1000 ₽</span>
-                    <span class="price-now">3500 ₽</span>
+                      <span class="price-now">3500 ₽</span>
                   </div>
                     <div class="product-btn"> <a class="product-link" href="#0">В магазин</a>
                     </div>
@@ -446,11 +444,13 @@
         <div class="modal-window" id="modal">
             <div class="modal-window-backdrop"></div>
               <div class="modal-window-body">
-                    <button class="modal-window-close" id="close">
+
+                    <button class="modal-window-close" id="close"><!---кнопка закрытия----->
                         <svg class="modal-X-button-icon">
-                            <use xlink:href="#X-button"></use></svg
+                            <img src="svg/form-x.svg" /></svg
                         ><span class="modal-screenreader-only">Закрыть</span>
                     </button>
+
     <h2 class="common-title modal-title">ваш фидбек</h2>
           <form action="#">
             <label for="modal-select">
