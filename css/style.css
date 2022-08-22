@@ -471,7 +471,7 @@ button {
 
 .search-input {
   padding: 0px 20px 0px 20px;
-  width: 83%;
+  width: 82%;
   height: 50px;
   /*padding: 0 20px;*/
   border: none;
@@ -724,7 +724,7 @@ button {
   margin-bottom: 20px;
   background-color: #f4f7f6;
   padding: 30px 0;
-  width: 1200px;
+  width: 100%;
   margin: auto;
   display: flex;
   align-items: center;
@@ -794,7 +794,7 @@ button {
     display: flex; 
     align-items: center;
     justify-content: center;
-    /*visibility: hidden;*/
+    visibility: hidden; /*закомментить!!!!!!!!!!!!*/
     width: 100%;
     height: 100vh;
     box-sizing: border-box;
@@ -820,14 +820,6 @@ button {
     right: 0;
     z-index: 10;
 }
-/*.modal-window-backdrop {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.7);
-}*/
 
 .modal-window-body {
     max-width: 320px; 
@@ -1109,9 +1101,29 @@ button {
         top: 0px;
     }
 }
+.trends-wrapper {
+      margin-left: auto;
+      margin-right: auto; 
+      width: 100%; 
+    }
+
 
 
 @media (max-width: 640px) {
+    .container-footer {
+       width: 100%;
+}
+   
+.trends-content {
+      margin-left: auto;
+     margin-right: auto;  
+      width: 100%; 
+    }
+
+    .search-input {
+   width: 95%;
+ }
+
     .container {
         padding: 0 15px;
     }
@@ -1130,7 +1142,6 @@ button {
     .nav-menu {
         flex-direction: column-reverse;
         padding-bottom: 50px;
-        height: 310px;
     }
 
     .header-hamburger {
@@ -1138,7 +1149,6 @@ button {
     }
 
     .menu-text {
-        margin-top: -20px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -1247,11 +1257,12 @@ button {
 }
 
 @media (max-width: 640px) and (orientation: landscape) {
-    .trends-item {
-        width: 50%;
-    }
-
-    .modal-window {
+.modal-window {
         top: 300px;
     }
 }
+.trends-content {
+      margin-left: auto;
+     margin-right: auto;  
+      width: 100%; 
+    }
